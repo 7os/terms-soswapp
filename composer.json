@@ -1,0 +1,23 @@
+{
+    "name": "7os/web-page-terms",
+    "description": "7 OS Web - Project support template",
+    "keywords": ["php", "javascript","7","seven","os","web","conditions","terms"],
+    "homepage": "https://github.com/7os/web-page-terms",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ikechukwu Okalia",
+            "email": "me@sirlouis.io"
+        },
+        {
+            "name": "Tym Frontiers Ltd.",
+            "email": "dev@tymfrontiers.com"
+        }
+    ],
+    "require": {},
+    "require-dev": {},
+    "autoload": {
+        "psr-4": {}
+    }
+}
