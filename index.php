@@ -18,12 +18,12 @@ require_once APP_BASE_INC;
     <meta name="publisher" content="<?php echo PRJ_PUBLISHER; ?>">
     <meta name="robots" content='index'>
     <!-- Theming styles -->
-    <link rel="stylesheet" href="//cdn.tymapp.com/get/7os/web-theme/web-theme.css">
-    <link rel="stylesheet" href="//cdn.tymapp.com/get/7os/web-theme/web-theme-<?php echo PRJ_THEME; ?>.css">
+    <link rel="stylesheet" href="<?php echo WHOST; ?>/7os/web-theme/css/web-theme.min.css">
+    <link rel="stylesheet" href="<?php echo WHOST; ?>/7os/web-theme/css/web-theme-<?php echo PRJ_THEME; ?>.min.css">
     <!-- optional plugin -->
-    <link rel="stylesheet" href="//cdn.tymapp.com/get/7os/web-plugin/web-plugin.css">
-    <link rel="stylesheet" href="//cdn.tymapp.com/get/7os/web-drag-nav/web-drag-nav.css">
-    <link rel="stylesheet" href="//cdn.tymapp.com/get/7os/web-fader-box/web-fader-box.css">
+    <link rel="stylesheet" href="<?php echo WHOST; ?>/7os/web-plugin/css/web-plugin.min.css">
+    <link rel="stylesheet" href="<?php echo WHOST; ?>/7os/web-dnav/css/web-dnav.min.css">
+    <link rel="stylesheet" href="<?php echo WHOST; ?>/7os/web-fader-box/css/web-fader-box.min.css">
     <!-- Project styling -->
     <link rel="stylesheet" href="<?php echo \html_style("base.css"); ?>">
   </head>
@@ -43,13 +43,13 @@ require_once APP_BASE_INC;
     </section>
     <?php include PRJ_INC_FOOTER; ?>
     <!-- Required scripts -->
-    <script src="//cdn.tymapp.com/get/jquery/jquery/jquery.min.js">  </script>
-    <script src="//cdn.tymapp.com/get/7os/js-generic-fn/js-generic-fn.min.js">  </script>
-    <script src="//cdn.tymapp.com/get/7os/web-theme/web-theme.min.js" ></script>
+    <script src="<?php echo WHOST; ?>/7os/jquery/js/jquery.min.js">  </script>
+    <script src="<?php echo WHOST; ?>/7os/js-generic/js/js-generic.min.js">  </script>
+    <script src="<?php echo WHOST; ?>/7os/web-theme/web-theme.min.js" ></script>
     <!-- optional plugins -->
-    <script src="//cdn.tymapp.com/get/7os/web-plugin/web-plugin.min.js" ></script>
-    <script src="//cdn.tymapp.com/get/7os/web-drag-nav/web-drag-nav.min.js" ></script>
-    <script src="//cdn.tymapp.com/get/7os/web-fader-box/web-fader-box.min.js" ></script>
+    <script src="<?php echo WHOST; ?>/7os/web-plugin/web-plugin.min.js" ></script>
+    <script src="<?php echo WHOST; ?>/7os/web-dnav/web-dnav.min.js" ></script>
+    <script src="<?php echo WHOST; ?>/7os/web-fader-box/web-fader-box.min.js" ></script>
     <!-- project scripts -->
     <script src="<?php echo \html_script ("base.min.js"); ?>" ></script>
   </body>
