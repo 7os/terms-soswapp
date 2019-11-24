@@ -28,6 +28,7 @@ require_once APP_BASE_INC;
     <link rel="stylesheet" href="<?php echo \html_style("base.css"); ?>">
   </head>
   <body>
+    <?php \setup_page('terms','base', true); ?>
     <?php include PRJ_INC_HEADER; ?>
     <section id="main-content">
       <div class="view-space">
