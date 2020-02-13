@@ -3,6 +3,7 @@ namespace TymFrontiers;
 use \Michelf\Markdown;
 require_once "app.init.php";
 require_once APP_BASE_INC;
+$page_name = "terms";
 ?>
 <!DOCTYPE html>
 <html lang="en" dir="ltr" manifest="<?php echo WHOST; ?>/site.webmanifest">
