@@ -30,7 +30,7 @@ $page_name = "terms";
     <link rel="stylesheet" href="<?php echo \html_style("base.css"); ?>">
   </head>
   <body>
-    <?php \setup_page('terms','base', true, PRJ_HEADER_HEIGHT); ?>
+    <?php \TymFrontiers\Helper\setup_page('terms','base', true, PRJ_HEADER_HEIGHT); ?>
     <?php include PRJ_INC_HEADER; ?>
     <section id="main-content">
       <div class="view-space">
